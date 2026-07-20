@@ -226,3 +226,9 @@ console.log(Price > 1000 ? 'expensive' : 'affordable');
 let hasPermission = false;
 
 console.log(!hasPermission ? 'Access Denied' : 'Access Granted');
+
+// 19. Using isOnline, use the NOT operator to print "User is offline".
+
+let isOnline = false;
+
+console.log(!isOnline ? 'User is offline' : 'user is online');
