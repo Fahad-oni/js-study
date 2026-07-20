@@ -1,4 +1,4 @@
-// 1
+// 1 Take two variables price1 and price2, and compare them using all comparison operators (==, ===, !=, !==, >, <, >=, <=), printing each result with console.log.
 
 const price1 = 200;
 const price2 = 300;
@@ -35,7 +35,7 @@ if (price1 <= price2) {
   console.log(`poduct1 is not good`);
 }
 
-// 2
+// 2 Create a variable isRaining (true/false). If it is true, print "Take an umbrella".
 
 const isRaining = true;
 
@@ -43,7 +43,7 @@ if (isRaining === true) {
   console.log(`Take an umbrella`);
 }
 
-// 3
+// 3 Take a variable stock. If stock is 0, print "Out of stock" (use only if, no else).
 
 const stock = 0;
 
@@ -51,7 +51,7 @@ if (stock === 0) {
   console.log(`Out of stock`);
 }
 
-// 4
+// 4 Take a number variable and check whether it is positive or negative (using if-else).
 
 const number = 62;
 
@@ -61,7 +61,7 @@ if (number % 2 === 0) {
   console.log(`its a negative number`);
 }
 
-//  5
+//  5 Take a year variable and check whether it is a leap year (hint: year % 4 === 0).
 
 const year = 2026;
 
@@ -71,7 +71,7 @@ if (year % 4 === 0) {
   console.log(`Its not a leap year`);
 }
 
-//  6
+//  6 Take a speed variable. If speed is greater than 80, print "Overspeeding", otherwise print "Normal speed".
 
 const speed = 80;
 
@@ -81,7 +81,7 @@ if (speed > 80) {
   console.log(`normal speed`);
 }
 
-//  7
+//  7 Using age and hasTicket, print "Entry allowed" if age is above 18 AND the person has a ticket (use &&).
 
 let age = 18;
 const hasTicket = true;
@@ -92,7 +92,7 @@ if (age >= 18 && hasTicket === true) {
   console.log(`Entry is not Allowed`);
 }
 
-//  8
+//  8 Using isWeekend and isHoliday, print "No work today" if either one is true (use ||).
 
 const isWeeked = true;
 const isHoliday = false;
@@ -101,7 +101,7 @@ if (isWeeked === true || isHoliday === ture) {
   console.log(`No work today`);
 }
 
-//  9
+//  9 Build a simple login system — print "Login successful" only if both username and password are correct.
 
 // correct login details
 const userName = 'fahad';
@@ -117,7 +117,7 @@ if (userName === useInputName && password === userInputPass) {
   console.log(`Login information wrong`);
 }
 
-// 10
+// 10 Build a grading system using a marks variable (A+, A, B, C, F) — it must have at least 5 condition branches.
 
 const mark = 95;
 
@@ -137,7 +137,7 @@ if (mark >= 80) {
   console.log(`you are failed`);
 }
 
-// 11
+// 11 Using a bmi variable, determine the category — Underweight, Normal, Overweight, Obese (use if-else if).
 
 let bmi = 39;
 
@@ -155,7 +155,7 @@ if (bmi < 18.5) {
   console.log(`Obesity Class III (Severe obesity)`);
 }
 
-// 12
+// 12 Using a month number (1-12), determine which season that month falls in (Winter, Summer, Monsoon, etc.).
 let month = 12;
 
 if (month === 1 || month === 2) {
@@ -174,4 +174,19 @@ if (month === 1 || month === 2) {
   console.log(`haha you entred wrong question`)
 }
 
-// 
+// 13.Using age and hasID, use nested if-else to check whether someone is eligible to vote.
+
+let agee = 18;
+let hasId = false;
+
+if (agee >= 18) {
+  if (hasId) {
+    console.log(`you can vote`);
+  } else {
+    console.log(`you can't vote`);
+  }
+} else {
+  console.log(`you have be mature to vote`);
+}
+
+
