@@ -203,3 +203,10 @@ if (isLoggedIn) {
 } else {
   console.log(`Please Login`);
 }
+
+// 15.Determine whether a number is even or odd using the ternary operator.
+
+let numberr = 35;
+
+console.log(number % 2 === 0 ? 'even' : 'odd');
+
