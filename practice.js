@@ -171,7 +171,7 @@ if (month === 1 || month === 2) {
 } else if (month === 11 || month === 12) {
   console.log(`This is Spring Season`);
 } else {
-  console.log(`haha you entred wrong question`)
+  console.log(`haha you entred wrong question`);
 }
 
 // 13.Using age and hasID, use nested if-else to check whether someone is eligible to vote.
@@ -189,4 +189,17 @@ if (agee >= 18) {
   console.log(`you have be mature to vote`);
 }
 
+// 14. Using isLoggedIn and isAdmin, build a nested condition — if logged in and admin, print "Admin Dashboard"; if logged in but not admin, print "User Dashboard"; if not logged in, print "Please Login".
 
+let isLoggedIn = true;
+let isAdmin = false;
+
+if (isLoggedIn) {
+  if (isAdmin) {
+    console.log(`Admin Dashboard`);
+  } else {
+    console.log(`User Dashboard`);
+  }
+} else {
+  console.log(`Please Login`);
+}
