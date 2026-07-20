@@ -210,3 +210,8 @@ let numberr = 35;
 
 console.log(number % 2 === 0 ? 'even' : 'odd');
 
+// 16.  Using age, determine "Adult" or "Minor" using the ternary operator.
+
+let AGE = 17;
+
+console.log(AGE >= 18 ? 'adult' : 'minor');
