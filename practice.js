@@ -225,4 +225,4 @@ console.log(Price > 1000 ? 'expensive' : 'affordable');
 
 let hasPermission = false;
 
-console.log(hasPermission !== true ? 'Access Denied' : 'Access Granted');
+console.log(!hasPermission ? 'Access Denied' : 'Access Granted');
