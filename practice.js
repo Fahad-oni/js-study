@@ -215,3 +215,8 @@ console.log(number % 2 === 0 ? 'even' : 'odd');
 let AGE = 17;
 
 console.log(AGE >= 18 ? 'adult' : 'minor');
+
+// 17. If the price is greater than 1000, print "Expensive", otherwise "Affordable" — write this using a ternary operator.
+
+let Price = 900;
+console.log(Price > 1000 ? 'expensive' : 'affordable');
