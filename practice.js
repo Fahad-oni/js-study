@@ -220,3 +220,9 @@ console.log(AGE >= 18 ? 'adult' : 'minor');
 
 let Price = 900;
 console.log(Price > 1000 ? 'expensive' : 'affordable');
+
+// 18. Using hasPermission, use the ! operator to print "Access Denied" if permission is not granted.
+
+let hasPermission = false;
+
+console.log(hasPermission !== true ? 'Access Denied' : 'Access Granted');
