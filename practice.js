@@ -232,3 +232,16 @@ console.log(!hasPermission ? 'Access Denied' : 'Access Granted');
 let isOnline = false;
 
 console.log(!isOnline ? 'User is offline' : 'user is online');
+
+// 20. Build a simple discount system: if cart total is above 1000 AND the user is a member, apply a 20% discount; if only above 1000, apply a 10% discount; otherwise, no discount — use logical operators combined with if-else if.
+
+let cart = 1100;
+let isMember = false;
+
+if (cart > 1000 && isMember) {
+  console.log(`Congratulations you have got 20% discount`);
+} else if (cart > 1000 && !isMember) {
+  console.log(`Congratulations you have got 10% discount`);
+} else {
+  console.log(`aaaaah!! You don't have any discount,Please become a member`);
+}
